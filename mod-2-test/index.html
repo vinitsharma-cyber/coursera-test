@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module 2 Assignment1</title>
+<link rel="stylesheet" type="text/css" href="css/external.css">
+</head>
+<style type="text/css">
+	*{
+		box-sizing:border-box;
+		
+	}
+	.container{
+		margin-right: 20px;
+		padding: 20px;
+	}
+	.row{
+		width: 100%
+	}
+	h1{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.row>div{
+		background-color: yellow;
+		border: 2px solid black;
+		margin-left: auto;
+		margin-right: auto;
+		border-collapse: separate;
+		border-spacing: 5px;
+	}
+	p{
+	padding: 5px;
+	}
+	#p1{
+		background-color: green;
+		
+	}
+	#p2{
+		background-color: green;
+		
+	}
+	#p3{
+		background-color: green;
+
+	}
+	@media (min-width: 992px){
+		.col-lg-4{
+		float: left;
+		width: 33.33%;
+
+		}
+	}
+	@media (min-width: 750px) and (max-width: 950px){
+		.col-md-6{
+			float: left;
+			width: 50%;
+
+		}
+		.col-md-12{
+			float: left;
+			width: 100%;
+		}
+	}
+	@media (max-width: 767px){
+		.col-sm-12{
+			float: left;
+			width: 100%
+		}
+	}
+</style>
+<body>
+<h1>MENU</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4 col-sm-12"><p id="p1">Mutton</p>
+			    <div> To cause the face to appear in a mass of flame make use of the following: mix together thoroughly petroleum, lard, mutton tallow and quick  lime. Distill this over a charcoal fire, and the liquid which results can be burned on the face without harm.</div></div>
+		<div class="col-lg-4 col-md-6 col-sm-12"><p id="p2">Fish</p>
+				<div>To cause the face to appear in a mass of flame make use of the following: mix together thoroughly petroleum, lard, mutton tallow and quick  lime. Distill this over a charcoal fire, and the liquid which results can be burned on the face without harm.</div></div>
+		<div class="col-lg-4 col-md-12 col-sm-12"><p id="p3">Lamb</p>
+			<div>To cause the face to appear in a mass of flame make use of the following: mix together thoroughly petroleum, lard, mutton tallow and quick  lime. Distill this over a charcoal fire, and the liquid which results can be burned on the face without harm.</div></div>
+    </div>
+</div>
+</body>
+</html>
